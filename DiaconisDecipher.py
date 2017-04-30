@@ -157,7 +157,7 @@ while True:
     if plFstar > plF:
         f = fstar
 
-    # if Pl(f*) >= Pl(f),
+    # if Pl(f*) <= Pl(f),
     else:
         # flip a random coin with probability Pl(f*) / Pl(f)
         p = math.exp(plFstar - plF)
